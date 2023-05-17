@@ -1,16 +1,16 @@
-module apps.inventories.controllers.pages.error;
+module apps.myname.controllers.pages.error;
 
-import apps.inventories;
+import apps.myname;
 @safe:
 
-class DINVErrorPageController : DAPPPageController {
-  mixin(ControllerThis!("INVErrorPageController"));
+class DMYNAMEErrorPageController : DAPPPageController {
+  mixin(ControllerThis!("MYNAMEErrorPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
     super.initialize(configSettings);
 
     this
-      .view(INVErrorView(this));
+      .view(MYNAMEErrorView(this));
   }
 }
-mixin(ControllerCalls!("INVErrorPageController"));
+mixin(ControllerCalls!("MYNAMEErrorPageController"));

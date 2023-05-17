@@ -1,1 +1,1 @@
-# Package 📦 apps.inventories.tests
+# Package 📦 apps.myname.tests

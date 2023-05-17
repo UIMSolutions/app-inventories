@@ -1,18 +1,18 @@
-module apps.inventories.views.index;
+module apps.myname.views.index;
 
-import apps.inventories;
+import apps.myname;
 @safe:
 
-class DINVIndexView : DView {
-  mixin(ViewThis!("INVIndexView"));
+class DMYNAMEIndexView : DView {
+  mixin(ViewThis!("MYNAMEIndexView"));
 
   override DH5Obj[] toH5(STRINGAA options = null) {
-    debugMethodCall(moduleName!DINVIndexView~":DINVIndexView("~this.name~")::toH5");
+    debugMethodCall(moduleName!DMYNAMEIndexView~":DMYNAMEIndexView("~this.name~")::toH5");
     super.toH5(options);
 
     return [
-      H5Div("APP Inventories -> Error")
+      H5Div("APP myname -> Error")
     ].toH5;
   }
 }
-mixin(ViewCalls!("INVIndexView"));
+mixin(ViewCalls!("MYNAMEIndexView"));

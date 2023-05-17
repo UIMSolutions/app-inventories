@@ -1,1 +1,1 @@
-module apps.inventories.routers;
+module apps.myname.routers;

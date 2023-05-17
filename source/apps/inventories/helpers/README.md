@@ -1,1 +1,1 @@
-# Package 📦 apps.inventories.helpers
+# Package 📦 apps.myname.helpers

@@ -1,1 +1,1 @@
-module apps.inventories.tests;
+module apps.myname.tests;

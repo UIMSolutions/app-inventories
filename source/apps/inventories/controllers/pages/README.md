@@ -1,2 +1,1 @@
-# Package 📦 apps.inventories.controllers.pages
-
+# Package 📦 apps.myname.controllers.pages

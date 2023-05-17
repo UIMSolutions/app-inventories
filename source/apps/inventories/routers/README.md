@@ -1,1 +1,1 @@
-# Package 📦 apps.inventories.routers
+# Package 📦 apps.myname.routers

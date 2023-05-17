@@ -1,1 +1,1 @@
-module apps.inventories.helpers;
+module apps.myname.helpers;

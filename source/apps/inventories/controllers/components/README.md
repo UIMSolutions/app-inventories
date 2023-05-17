@@ -1,2 +1,1 @@
-# Package 📦 apps.inventories.controllers.components
-
+# Package 📦 apps.myname.controllers.components

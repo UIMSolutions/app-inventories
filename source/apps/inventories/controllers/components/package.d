@@ -1,1 +1,1 @@
-module apps.inventories.controllers.components;
+module apps.myname.controllers.components;

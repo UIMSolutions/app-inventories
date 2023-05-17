@@ -1,1 +1,1 @@
-module apps.inventories.controllers.actions;
+module apps.myname.controllers.actions;

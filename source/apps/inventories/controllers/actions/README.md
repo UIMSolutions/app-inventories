@@ -1,2 +1,1 @@
-# Package 📦 apps.inventories.controllers.actions
-
+# Package 📦 apps.myname.controllers.actions
