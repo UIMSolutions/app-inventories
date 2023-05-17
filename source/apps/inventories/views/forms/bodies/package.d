@@ -1,2 +1,2 @@
-module apps.inventories.views.forms.bodies;
+module apps.myname.views.forms.bodies;
 

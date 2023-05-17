@@ -1,2 +1,2 @@
-module apps.inventories.views.forms.footers;
+module apps.myname.views.forms.footers;
 

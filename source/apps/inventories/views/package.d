@@ -1,10 +1,10 @@
-module apps.inventories.views;
+module apps.myname.views;
 
 public {
-  import apps.inventories.views.components;
-  import apps.inventories.views.forms;
-  import apps.inventories.views.pages;
+  import apps.myname.views.components;
+  import apps.myname.views.forms;
+  import apps.myname.views.pages;
 }
 
-public import apps.inventories.views.error;
-public import apps.inventories.views.index;
+public import apps.myname.views.error;
+public import apps.myname.views.index;

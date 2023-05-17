@@ -1,2 +1,2 @@
-# Package 📦 apps.inventories.views.pages.bodies
+# Package 📦 apps.myname.views.pages.bodies
 

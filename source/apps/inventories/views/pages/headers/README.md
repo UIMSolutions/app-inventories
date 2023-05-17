@@ -1,2 +1,2 @@
-# Package 📦 apps.inventories.views.pages.headers
+# Package 📦 apps.myname.views.pages.headers
 

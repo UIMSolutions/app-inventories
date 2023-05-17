@@ -1,2 +1,2 @@
-module apps.inventories.views.forms.headers;
+module apps.myname.views.forms.headers;
 

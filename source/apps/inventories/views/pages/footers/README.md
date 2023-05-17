@@ -1,2 +1,2 @@
-# Package 📦 apps.inventories.views.pages.footers
+# Package 📦 apps.myname.views.pages.footers
 
