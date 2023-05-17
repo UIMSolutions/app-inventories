@@ -1,7 +1,7 @@
-module apps.myname.controllers;
+module apps.inventories.controllers;
 
 public { // Packages
-  import apps.myname.controllers.actions;
-  import apps.myname.controllers.components;
-  import apps.myname.controllers.pages;
+  import apps.inventories.controllers.actions;
+  import apps.inventories.controllers.components;
+  import apps.inventories.controllers.pages;
 }
