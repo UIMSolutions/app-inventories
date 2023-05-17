@@ -1,1 +1,1 @@
-module dbs.inventories.helpers;
+module apps.inventories.helpers;
