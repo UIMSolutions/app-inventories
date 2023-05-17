@@ -18,10 +18,11 @@ public import uim.servers;
 public import langs.javascript;
 
 public {
-  import apps.inv.controllers;
-  import apps.inv.helpers;
-  import apps.inv.tests;
-  import apps.inv.views;
+  import apps.inventories.controllers;
+  import apps.inventories.helpers;
+  import apps.inventories.routers;
+  import apps.inventories.tests;
+  import apps.inventories.views;
 }
 
 DApp invApp;

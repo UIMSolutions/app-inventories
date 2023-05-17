@@ -1,1 +1,1 @@
-module apps.inventories.views.components;
+module apps.myname.views.components;
