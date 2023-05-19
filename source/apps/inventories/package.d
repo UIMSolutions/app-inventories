@@ -25,9 +25,9 @@ public {
   import apps.inventories.views;
 }
 
-DApp invApp;
+DApp inventoriesApp;
 static this() {
-  invApp = App
+  inventoriesApp = App
     .name("inventoriesApp")
     .rootPath("/apps/inventories")
     .addRoute(Route("", HTTPMethod.GET, INVIndexPageController))

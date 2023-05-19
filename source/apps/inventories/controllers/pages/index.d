@@ -3,14 +3,14 @@ module apps.inventories.controllers.pages.index;
 import apps.inventories;
 @safe:
 
-class DINVENTORIESIndexPageController : DAPPPageController {
-  mixin(ControllerThis!("INVENTORIESIndexPageController"));
+class DINVIndexPageController : DAPPPageController {
+  mixin(ControllerThis!("INVIndexPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
     super.initialize(configSettings);
 
     this
-      .view(INVENTORIESIndexView(this));
+      .view(INVIndexView(this));
   }
 }
-mixin(ControllerCalls!("INVENTORIESIndexPageController"));
+mixin(ControllerCalls!("INVIndexPageController"));

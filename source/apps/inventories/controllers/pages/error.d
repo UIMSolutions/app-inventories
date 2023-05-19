@@ -3,14 +3,14 @@ module apps.inventories.controllers.pages.error;
 import apps.inventories;
 @safe:
 
-class DINVENTORIESErrorPageController : DAPPPageController {
-  mixin(ControllerThis!("INVENTORIESErrorPageController"));
+class DINVErrorPageController : DAPPPageController {
+  mixin(ControllerThis!("INVErrorPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
     super.initialize(configSettings);
 
     this
-      .view(INVENTORIESErrorView(this));
+      .view(INVErrorView(this));
   }
 }
-mixin(ControllerCalls!("INVENTORIESErrorPageController"));
+mixin(ControllerCalls!("INVErrorPageController"));
