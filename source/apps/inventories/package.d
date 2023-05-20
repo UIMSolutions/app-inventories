@@ -25,11 +25,11 @@ public {
   import apps.inventories.views;
 }
 
-DApp inventoriesApp;
 static this() {
-  inventoriesApp = App
+  AppRegistry.register("apps.inventories",  
+    App
     .name("inventoriesApp")
     .rootPath("/apps/inventories")
     .addRoute(Route("", HTTPMethod.GET, INVIndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, INVIndexPageController));
+    .addRoute(Route("/", HTTPMethod.GET, INVIndexPageController)));
 }
