@@ -3,7 +3,7 @@ module apps.inventories.controllers.pages.error;
 import apps.inventories;
 @safe:
 
-class DINVErrorPageController : DAPPPageController {
+class DINVErrorPageController : DPageController {
   mixin(ControllerThis!("INVErrorPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
