@@ -27,9 +27,11 @@ public {
 
 static this() {
   AppRegistry.register("apps.inventories",  
-    App
-    .name("inventoriesApp")
-    .rootPath("/apps/inventories")
-    .addRoute(Route("", HTTPMethod.GET, INVIndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, INVIndexPageController)));
+    App("inventoriesApp", "apps/inventories")
+      .importTranslations()
+      .addRoutes(
+        Route("", HTTPMethod.GET, IndexPageController),
+        Route("/", HTTPMethod.GET, IndexPageController)
+      )
+    );
 }
