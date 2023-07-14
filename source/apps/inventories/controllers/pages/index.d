@@ -3,8 +3,8 @@ module apps.inventories.controllers.pages.index;
 import apps.inventories;
 @safe:
 
-class DINVIndexPageController : DPageController {
-  mixin(ControllerThis!("INVIndexPageController"));
+class DIndexPageController : DPageController {
+  mixin(ControllerThis!("IndexPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
     super.initialize(configSettings);
@@ -13,4 +13,4 @@ class DINVIndexPageController : DPageController {
       .view(INVIndexView(this));
   }
 }
-mixin(ControllerCalls!("INVIndexPageController"));
+mixin(ControllerCalls!("IndexPageController"));
